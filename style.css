@@ -3,7 +3,7 @@
 }
 body {
   background-color: #ffffff;
-  background-image: url("images/jorn.jpg");
+  background: linear-gradient(to left, #114097, #adacac);
   background-attachment: fixed;
   background-size: cover;
 
@@ -14,8 +14,8 @@ body {
   min-height: 100vh;
 }
 main nav{
-  height: calc(100vh - 150px);
-  background-image: url("images/fundo_2.jpg");
+  height: calc(100vh - 400px);
+  background-image: url("images/slide1.png");
   display: flex;
   justify-content: space-between;
   margin: auto 30px;
@@ -43,7 +43,7 @@ header {
   top: 0;
   right: 0;
   height: 60px;
-  background-color: #2d6ea0;
+  background-color: #083f69;
   display: none;
   justify-content: flex-end;
   align-items: center;
@@ -101,7 +101,7 @@ main h1 {
   background-color: #fff;
   padding: 40px;
   border-radius: 10px;
-  background: #3e77b3;
+  background: #afc1d4;
   box-shadow: 7px 7px 13px #dedede;
 
   display: flex;
@@ -119,7 +119,8 @@ main h1 {
 }
 .pizza-item--img img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  border-radius: 40px;
 }
 .pizza-item--add {
   width: 50px;
